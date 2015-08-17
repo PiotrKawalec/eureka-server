@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="demo.EurekaServerApplicationTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2015-08-10T11:34:26" hostname="IRPKAWALEC.local" time="0.001">
+  <properties/>
+  <testcase name="contextLoads" classname="demo.EurekaServerApplicationTests" time="0.001"/>
+  <system-out><![CDATA[12:34:24.326 [Test worker] DEBUG o.s.t.c.j.SpringJUnit4ClassRunner - SpringJUnit4ClassRunner constructor called with [class demo.EurekaServerApplicationTests].
+12:34:24.343 [Test worker] DEBUG o.s.test.context.BootstrapUtils - Instantiating TestContextBootstrapper from class [org.springframework.test.context.support.DefaultTestContextBootstrapper]
+12:34:24.353 [Test worker] DEBUG o.s.t.c.s.DefaultTestContextBootstrapper - Found explicit ContextLoader class [org.springframework.boot.test.SpringApplicationContextLoader] for context configuration attributes [ContextConfigurationAttributes@39f63874 declaringClass = 'demo.EurekaServerApplicationTests', classes = '{class demo.EurekaServerApplication}', locations = '{}', inheritLocations = true, initializers = '{}', inheritInitializers = true, name = [null], contextLoaderClass = 'org.springframework.boot.test.SpringApplicationContextLoader']
+12:34:24.357 [Test worker] DEBUG o.s.t.c.support.ActiveProfilesUtils - Could not find an 'annotation declaring class' for annotation type [org.springframework.test.context.ActiveProfiles] and class [demo.EurekaServerApplicationTests]
+12:34:24.360 [Test worker] DEBUG o.s.t.c.s.DefaultTestContextBootstrapper - @TestExecutionListeners is not present for class [demo.EurekaServerApplicationTests]: using defaults.
+12:34:24.367 [Test worker] INFO  o.s.t.c.s.DefaultTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+12:34:24.371 [Test worker] INFO  o.s.t.c.s.DefaultTestContextBootstrapper - Could not instantiate TestExecutionListener [org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]. Specify custom listener classes or make the default listener classes (and their required dependencies) available. Offending class: [org/springframework/transaction/interceptor/TransactionAttribute]
+12:34:24.371 [Test worker] INFO  o.s.t.c.s.DefaultTestContextBootstrapper - Could not instantiate TestExecutionListener [org.springframework.test.context.transaction.TransactionalTestExecutionListener]. Specify custom listener classes or make the default listener classes (and their required dependencies) available. Offending class: [org/springframework/transaction/interceptor/TransactionAttributeSource]
+12:34:24.374 [Test worker] INFO  o.s.t.c.s.DefaultTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@381dd1e2, org.springframework.test.context.support.DependencyInjectionTestExecutionListener@483ecb34, org.springframework.test.context.support.DirtiesContextTestExecutionListener@1d5162]
+12:34:24.376 [Test worker] DEBUG o.s.t.annotation.ProfileValueUtils - Retrieved @ProfileValueSourceConfiguration [null] for test class [demo.EurekaServerApplicationTests]
+12:34:24.376 [Test worker] DEBUG o.s.t.annotation.ProfileValueUtils - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [demo.EurekaServerApplicationTests]
+12:34:24.379 [Test worker] DEBUG o.s.t.annotation.ProfileValueUtils - Retrieved @ProfileValueSourceConfiguration [null] for test class [demo.EurekaServerApplicationTests]
+12:34:24.379 [Test worker] DEBUG o.s.t.annotation.ProfileValueUtils - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [demo.EurekaServerApplicationTests]
+12:34:24.379 [Test worker] DEBUG o.s.t.annotation.ProfileValueUtils - Retrieved @ProfileValueSourceConfiguration [null] for test class [demo.EurekaServerApplicationTests]
+12:34:24.380 [Test worker] DEBUG o.s.t.annotation.ProfileValueUtils - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [demo.EurekaServerApplicationTests]
+12:34:24.381 [Test worker] DEBUG o.s.t.annotation.ProfileValueUtils - Retrieved @ProfileValueSourceConfiguration [null] for test class [demo.EurekaServerApplicationTests]
+12:34:24.381 [Test worker] DEBUG o.s.t.annotation.ProfileValueUtils - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [demo.EurekaServerApplicationTests]
+12:34:24.383 [Test worker] DEBUG o.s.t.c.s.DependencyInjectionTestExecutionListener - Performing dependency injection for test context [[DefaultTestContext@305a6fc1 testClass = EurekaServerApplicationTests, testInstance = demo.EurekaServerApplicationTests@60e67787, testMethod = [null], testException = [null], mergedContextConfiguration = [MergedContextConfiguration@13d51604 testClass = EurekaServerApplicationTests, locations = '{}', classes = '{class demo.EurekaServerApplication}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{}', contextLoader = 'org.springframework.boot.test.SpringApplicationContextLoader', parent = [null]]]].
+12:34:24.435 [Test worker] DEBUG o.s.core.env.StandardEnvironment - Adding [systemProperties] PropertySource with lowest search precedence
+12:34:24.436 [Test worker] DEBUG o.s.core.env.StandardEnvironment - Adding [systemEnvironment] PropertySource with lowest search precedence
+12:34:24.436 [Test worker] DEBUG o.s.core.env.StandardEnvironment - Initialized StandardEnvironment with PropertySources [systemProperties,systemEnvironment]
+12:34:24.437 [Test worker] DEBUG o.s.core.env.StandardEnvironment - Adding [integrationTest] PropertySource with search precedence immediately lower than [systemEnvironment]
+2015-08-10 12:34:24.591  INFO 14409 --- [    Test worker] o.s.boot.SpringApplication               : Starting application on IRPKAWALEC.local with PID 14409 (/Users/pkawalec/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot/1.2.4.RELEASE/231f740ec1e7b2b89cb9accef516cb02eb2db44d/spring-boot-1.2.4.RELEASE.jar started by pkawalec in /Users/pkawalec/Documents/workspace-sts/eureka-server)
+2015-08-10 12:34:24.613  INFO 14409 --- [    Test worker] s.c.a.AnnotationConfigApplicationContext : Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@327630fa: startup date [Mon Aug 10 12:34:24 BST 2015]; root of context hierarchy
+2015-08-10 12:34:24.730  INFO 14409 --- [    Test worker] f.a.AutowiredAnnotationBeanPostProcessor : JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2015-08-10 12:34:24.859  INFO 14409 --- [    Test worker] trationDelegate$BeanPostProcessorChecker : Bean 'encrypt.CONFIGURATION_PROPERTIES' of type [class org.springframework.cloud.bootstrap.encrypt.KeyProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2015-08-10 12:34:24.859  INFO 14409 --- [    Test worker] trationDelegate$BeanPostProcessorChecker : Bean 'encryptionBootstrapConfiguration' of type [class org.springframework.cloud.bootstrap.encrypt.EncryptionBootstrapConfiguration$$EnhancerBySpringCGLIB$$b981ab4b] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2015-08-10 12:34:24.897  INFO 14409 --- [    Test worker] o.s.boot.SpringApplication               : Started application in 0.424 seconds (JVM running for 1.171)
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::        (v1.2.4.RELEASE)
+
+2015-08-10 12:34:24.966  INFO 14409 --- [    Test worker] s.c.a.AnnotationConfigApplicationContext : Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@55f0b242: startup date [Mon Aug 10 12:34:24 BST 2015]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@327630fa
+2015-08-10 12:34:25.422  INFO 14409 --- [    Test worker] o.s.b.f.s.DefaultListableBeanFactory     : Overriding bean definition for bean 'infoEndpoint': replacing [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=org.springframework.boot.actuate.autoconfigure.EndpointAutoConfiguration; factoryMethodName=infoEndpoint; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [org/springframework/boot/actuate/autoconfigure/EndpointAutoConfiguration.class]] with [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=org.springframework.cloud.autoconfigure.RefreshAutoConfiguration$InfoEndpointRebinderConfiguration; factoryMethodName=infoEndpoint; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [org/springframework/cloud/autoconfigure/RefreshAutoConfiguration$InfoEndpointRebinderConfiguration.class]]
+2015-08-10 12:34:25.506  INFO 14409 --- [    Test worker] o.s.cloud.context.scope.GenericScope     : BeanFactory id=91f3be91-6220-3fa2-ac49-681e1b2fee94
+2015-08-10 12:34:25.508  INFO 14409 --- [    Test worker] f.a.AutowiredAnnotationBeanPostProcessor : JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2015-08-10 12:34:25.519  INFO 14409 --- [    Test worker] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.autoconfigure.RefreshAutoConfiguration$ConfigurationPropertiesRebinderConfiguration' of type [class org.springframework.cloud.autoconfigure.RefreshAutoConfiguration$ConfigurationPropertiesRebinderConfiguration$$EnhancerBySpringCGLIB$$e9b86e28] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2015-08-10 12:34:25.604  WARN 14409 --- [    Test worker] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2015-08-10 12:34:25.604  INFO 14409 --- [    Test worker] c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2015-08-10 12:34:25.611  INFO 14409 --- [    Test worker] c.netflix.config.DynamicPropertyFactory  : DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@24f8a8fe
+2015-08-10 12:34:26.469  INFO 14409 --- [    Test worker] o.s.ui.freemarker.SpringTemplateLoader   : SpringTemplateLoader for FreeMarker: using resource loader [org.springframework.context.annotation.AnnotationConfigApplicationContext@55f0b242: startup date [Mon Aug 10 12:34:24 BST 2015]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@327630fa] and template loader path [classpath:/templates/]
+2015-08-10 12:34:26.563  WARN 14409 --- [    Test worker] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2015-08-10 12:34:26.563  INFO 14409 --- [    Test worker] c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2015-08-10 12:34:26.573  INFO 14409 --- [    Test worker] o.s.c.support.DefaultLifecycleProcessor  : Starting beans in phase 0
+2015-08-10 12:34:26.575  INFO 14409 --- [    Test worker] .p.EurekaConfigBasedInstanceInfoProvider : Setting initial instance status as: STARTING
+2015-08-10 12:34:26.827  INFO 14409 --- [    Test worker] com.netflix.discovery.DiscoveryClient    : Not registering with Eureka server per configuration
+2015-08-10 12:34:26.834  INFO 14409 --- [    Test worker] demo.EurekaServerApplicationTests        : Started EurekaServerApplicationTests in 2.396 seconds (JVM running for 3.109)
+2015-08-10 12:34:26.835 ERROR 14409 --- [       Thread-5] e.s.EurekaServerInitializerConfiguration : Could not initialize Eureka servlet context
+
+java.lang.IllegalArgumentException: null source
+	at java.util.EventObject.<init>(EventObject.java:56)
+	at javax.servlet.ServletContextEvent.<init>(ServletContextEvent.java:37)
+	at org.springframework.cloud.netflix.eureka.server.EurekaServerInitializerConfiguration$2.run(EurekaServerInitializerConfiguration.java:176)
+	at java.lang.Thread.run(Thread.java:745)
+
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
